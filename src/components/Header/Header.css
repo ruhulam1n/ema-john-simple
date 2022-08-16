@@ -1,0 +1,32 @@
+body{
+    font-size: 18px;
+}
+.header{
+    text-align: center;
+}
+.header img{
+    height: 80px;
+}
+.header nav ul{
+    margin-bottom: 0;
+    background-color: black;
+    text-align: left;
+    display: flex;
+}
+.header nav ul li{
+    padding: 5px;
+    list-style: none;
+    margin-right: 15px;
+    line-height: 30px;
+}
+.header nav li:hover {
+    background-color: #d3d3d3;
+}
+.header nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+.header nav a:visited {
+    color: #fff;
+}
